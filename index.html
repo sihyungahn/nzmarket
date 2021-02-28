@@ -121,21 +121,36 @@ https://templatemo.com/tm-534-parallo
           </div>
         </div>
         <!-- Call to Action -->
-        <section class="row" id="tmCallToAction">
-          <div class="col-12 tm-call-to-action-col">
-            <img src="img/call-to-action.jpg" alt="Image" class="img-fluid tm-call-to-action-image" />
-            <div class="tm-bg-white tm-call-to-action-text">
-              <h2 class="tm-call-to-action-title">Contact Us</h2>
-              <p class="tm-call-to-action-description">
-               Get Quote
-              </p>
-              <form action="#" method="get" class="tm-call-to-action-form">                
-                <input name="email" type="email" class="tm-email-input" id="email" placeholder="Email" />
-                <button type="submit" class="btn btn-secondary">Send Email</button>
-              </form>
+       <section>
+        <div class="container">
+          <form action="https://formspree.io/f/xknpalek" method="POST" id="my-form">
+      
+            <div class="form-group">
+              <label for="firstName"> First Name</label>
+              <input type="text" id="firstName" name="firstName">
             </div>
-          </div>
-        </section>
+      
+            <div class="form-group">
+              <label for="latsName">Last Name</label>
+              <input type="text" id="lastName" name="lastName">
+            </div>
+      
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email">
+            </div>
+      
+            <div class="form-group">
+              <label for="massage">Massage</label>
+              <textarea name="massage" id="massage" cols="30" rows="10"></textarea>
+            </div>
+      
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+        <div id="status"></div>
+      </section>
+
 
         <!-- Page footer -->
         <footer class="row">
