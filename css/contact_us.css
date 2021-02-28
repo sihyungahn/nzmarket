@@ -1,5 +1,5 @@
 
-  section {
+  #contact {
     height: 100vh;
     width: 100%;
     background-color: aliceblue;
@@ -22,7 +22,7 @@
     width: 100%;
     margin-top: 20px;
     font-size: 20px;
-	  text-align:center;
+	text-align: center;
   }
   .form-group input,
   .form-group textarea {
