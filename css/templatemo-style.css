@@ -607,6 +607,7 @@ p {
   height: 100%;
   padding: 67px 115px 67px 70px;  
   margin-right: 5px;
+  border-radius: 20px;
 }
 
 .tm-contact-text {
